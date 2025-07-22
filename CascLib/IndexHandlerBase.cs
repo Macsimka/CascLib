@@ -175,7 +175,7 @@ namespace CASCLib
             }
             catch (Exception exc)
             {
-                throw new Exception($"DownloadIndexFile failed: {archive} - {exc}");
+                //throw new Exception($"DownloadIndexFile failed: {archive} - {exc}");
             }
         }
 
